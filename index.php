@@ -1,7 +1,7 @@
 <?php get_header(); ?>
     <?php if (have_posts()) : ?>
         <main>
-        <section class="section">
+        <section class="section py-2">
         <?php while (have_posts()) : the_post(); ?>
             <?php 
             get_template_part('template-parts/content', 'post'); 

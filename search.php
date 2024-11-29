@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section class="section">
+<section class="section py-2">
     <h1 class="title is-5 home-title">
         <?php printf(
             esc_html__('Search Results for: %s', 'quotes-theme'),

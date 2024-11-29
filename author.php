@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section class="section">
+<section class="section py-2">
 <?php if (have_posts()) : ?>
     <div class="posts-list">
         <?php 

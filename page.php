@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<main class="section">
+<main class="section py-2">
     <div class="container">
         <?php while (have_posts()) : the_post(); ?>
             <article>

@@ -12,9 +12,14 @@
                         </h2>
                         <hr>
                         <div class="buttons is-centered">
-                        <a href="<?php echo esc_url(get_permalink()); ?>" class="readmore-button" title="<?php echo esc_html(get_the_title()); ?>">
-                            <?php esc_html_e('மேலும் படிக்க', 'quotes-theme'); ?>
-                         </a>
+                        <?php
+                            $post_id = get_the_ID();
+                            if (!empty($post_id) && get_post($post_id)) {
+                                quotes_theme_display_read_more_button($post_id);
+                            } else {
+                                echo '<p class="notification is-danger">Error: Unable to retrieve post information.</p>';
+                            }
+                        ?>
                         </div>
                 </div>
             </div>

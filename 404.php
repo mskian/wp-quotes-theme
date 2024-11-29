@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section class="section">
+<section class="section py-2">
     <div class="container">
         <h1 class="title home-title"><?php esc_html_e('404 - Page Not Found', 'quotes-theme'); ?></h1>
         <p style=" display: flex; flex-direction: column; justify-content: center; align-items: center;">

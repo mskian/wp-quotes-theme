@@ -9,7 +9,7 @@ Minimal features and easy to set up!
 ## Features
 
 - Homepage with post list and pagination
-- Category, tag, search, and other archive pages
+- Single Post Page, Category, tag, search, and other archive pages
 - 404 Page
 - Footer Text
 - Support for the Sassy Social Share plugin
